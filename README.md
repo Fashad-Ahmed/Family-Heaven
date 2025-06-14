@@ -57,6 +57,9 @@ Family Haven is an AI-powered web application designed to provide culturally sen
 
 This MVP was developed during the **GDG Kolachi Build With AI 2025 Hackathon** to address the lack of accessible, culturally relevant parenting resources in South Asia. The app leverages Gemini 2.5 for AI-driven support, Tailwind CSS for responsive design, and Next.js for scalability, creating a prototype that empowers South Asian families.
 
+![image](https://github.com/user-attachments/assets/1cc8256c-1fec-4c5b-b6f2-19c712e2b412)
+
+
 ## Future Enhancements
 
 - Add pregnancy tracking and video consultations for premium tiers.
