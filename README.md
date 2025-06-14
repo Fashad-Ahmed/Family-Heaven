@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Family Haven - Pregnancy & Parenting Guide AI
 
-## Getting Started
+**Built during GDG Kolachi Build With AI 2025 Hackathon**
 
-First, run the development server:
+Family Haven is an AI-powered web application designed to provide culturally sensitive pregnancy and parenting guidance for South Asian families, particularly in Pakistan and India. The Minimum Viable Product (MVP) addresses key needs, including doctor-level pregnancy advice, holistic postpartum support, localized child safety tips, mindful parenting, and inclusive resources for fathers, all while respecting cultural taboos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Culturally Tailored Guidance**: Medical-grade pregnancy and parenting advice customized for South Asian cultural norms, available in English, Urdu, and Hindi.
+- **Postpartum & Mental Health Support**: Comprehensive resources for physical recovery and mental health, including anonymous Q&A to destigmatize sensitive topics.
+- **Localized Child Safety**: Region-specific abduction prevention strategies and emergency contacts (e.g., 15 in Pakistan, 100 in India).
+- **Father-Inclusive Content**: Guidance for fathers to support pregnant partners and engage in childcare, challenging traditional norms.
+- **24/7 AI Companion**: Powered by Gemini 2.5, offering empathetic, multilingual responses via a user-friendly chat interface.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: Next.js, Tailwind CSS, Framer Motion
+- **Backend**: Next.js API routes for Gemini 2.5 integration
+- **Multilingual Support**: i18next for English, Urdu, and Hindi
+- **Deployment**: Vercel
+- **Other Tools**: Google Generative AI
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/Fashad-Ahmed/Family-Heaven.git
+   ```
+2. Navigate to the project directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   cd Family-Heaven
+   ```
+3. Install dependencies:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
+4. Set up environment variables:
+   - Create a `.env.local` file.
+   - Add `GEMINI_API_KEY` (obtain from Google AI Studio).
+5. Run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
+6. Open http://localhost:3000 in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage
+
+- Access the homepage to interact with the AI chatbot or navigate tabs (Pregnancy, Postpartum, Child Safety, Mindful Parenting).
+- Switch between English, Urdu, and Hindi using the language toggle.
+- Explore static content for quick tips and emergency contacts.
+
+## Hackathon Context
+
+This MVP was developed during the **GDG Kolachi Build With AI 2025 Hackathon** to address the lack of accessible, culturally relevant parenting resources in South Asia. The app leverages Gemini 2.5 for AI-driven support, Tailwind CSS for responsive design, and Next.js for scalability, creating a prototype that empowers South Asian families.
+
+## Future Enhancements
+
+- Add pregnancy tracking and video consultations for premium tiers.
+- Expand partnerships with NGOs and health workers for rural outreach.
+- Refine AI prompts based on user feedback to enhance cultural sensitivity.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
